@@ -58,7 +58,7 @@ graph TD
 ```
 
 ### Key Architectural Pillars
-1. **Zero Cloud Infrastructure**: Operates independently of external API servers or cloud databases to guarantee maximum reliability during network infrastructure failures.
+1. **Zero Trust Cloud Infrastructure**: Operates independently of external API servers or cloud databases to guarantee maximum reliability during network infrastructure failures.
 2. **Foreground Ride Mode Service**: Utilizes a native Android Foreground Service (`RideModeService.kt`) to prevent OS process termination during background operation or screen lock.
 3. **Dual MethodChannel Interface**:
    - `com.roadsos.mobile/native`: Controls native foreground services, vibration feedback, and hardware GPS polling.
